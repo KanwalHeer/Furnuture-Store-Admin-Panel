@@ -11,9 +11,9 @@ export default async function ProductDetailPage({
     return <div>Product not found</div>;
   }
 
-  if (!product) {
-    return <div>Loading...</div>;
-  }
+  // if (!product) {
+  //   return <div>Loading...</div>;
+  // }
 
   return (
     <div className="p-8 bg-gray-50 min-h-screen">

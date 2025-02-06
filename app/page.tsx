@@ -19,9 +19,9 @@ export default function HomePage() {
         <div className="flex justify-center items-center w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
           <Image src={'/b1.png'} alt="image" width={500} height={400} className="w-full h-auto" />
         </div>
-        <div className="flex justify-center items-center w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+        {/* <div className="flex justify-center items-center w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
           <Image src={'/b5.png'} alt="image" width={500} height={400} className="w-full h-auto" />
-        </div>
+        </div> */}
       </div>
     </div>
   )
